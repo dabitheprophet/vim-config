@@ -53,7 +53,9 @@ set autoindent
 set smartindent
 set number
 syntax on
-colorscheme peachpuff
+set background=dark
+set background=dark
+colorscheme desert
 set splitbelow
 set splitright
 set backspace=indent,eol,start
