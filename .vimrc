@@ -58,6 +58,12 @@ set splitbelow
 set splitright
 set backspace=indent,eol,start
 map <C-n> :NERDTreeToggle<CR>
+nnoremap <C-h> <C-w>h
+nnoremap <C-j> <C-w>j
+nnoremap <C-k> <C-w>k
+nnoremap <C-l> <C-w>l
+nnoremap <C-Right> :bn<CR>
+nnoremap <C-Left> :bp<CR>
 set shiftwidth=2
 autocmd StdinReadPre * let s:std_in=1
 autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif

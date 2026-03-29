@@ -29,11 +29,21 @@ cp -r ~/vim-config/bundle/Vundle.vim ~/.vim/bundle/Vundle.vim
 vim +PluginInstall +qall
 ```
 
-**5. Compile YouCompleteMe**
+---
 
-```bash
-cd ~/.vim/bundle/YouCompleteMe
-python3 install.py
-```
+## Keybindings
 
-If you don't need code completion, skip step 5 and remove the `YouCompleteMe` line from `.vimrc`.
+| Key | Action |
+|---|---|
+| `Ctrl+n` | Toggle NERDTree file panel |
+| `Ctrl+h/j/k/l` | Move between splits |
+| `Ctrl+→` | Next buffer |
+| `Ctrl+←` | Previous buffer |
+| `Ctrl+w` then `s` | Open file in horizontal split (NERDTree) |
+| `Ctrl+w` then `v` | Open file in vertical split (NERDTree) |
+| `Ctrl+ww` | Cycle between splits |
+| `Ctrl+6` | Toggle between last two files |
+| `gg=G` | Auto-indent entire file |
+| `Ctrl+o` | Jump back to previous cursor position |
+| `*` | Search for word under cursor |
+
